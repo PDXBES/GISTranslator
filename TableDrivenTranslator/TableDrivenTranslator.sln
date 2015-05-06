@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TableDrivenTranslator", "TableDrivenTranslator.vbproj", "{69BBF994-2109-4457-AA9C-24C074DD2EFE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "translator", "..\translator\translator.vbproj", "{1D54C2B6-8494-42A5-A4B9-68BC9FBB8B03}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SystemsAnalysis.Utilities.ArcObjects", "..\..\ArcObjectsUtils\SystemsAnalysisUtils\SystemsAnalysis.Utilities.ArcObjects.vbproj", "{C8B57C89-8D07-4BE5-ACF8-497B1B7B54C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69BBF994-2109-4457-AA9C-24C074DD2EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BBF994-2109-4457-AA9C-24C074DD2EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BBF994-2109-4457-AA9C-24C074DD2EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BBF994-2109-4457-AA9C-24C074DD2EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D54C2B6-8494-42A5-A4B9-68BC9FBB8B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D54C2B6-8494-42A5-A4B9-68BC9FBB8B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D54C2B6-8494-42A5-A4B9-68BC9FBB8B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D54C2B6-8494-42A5-A4B9-68BC9FBB8B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B57C89-8D07-4BE5-ACF8-497B1B7B54C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B57C89-8D07-4BE5-ACF8-497B1B7B54C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B57C89-8D07-4BE5-ACF8-497B1B7B54C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B57C89-8D07-4BE5-ACF8-497B1B7B54C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

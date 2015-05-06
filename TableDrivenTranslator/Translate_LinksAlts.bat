@@ -1,0 +1,1 @@
+W:\Model_Programs\GISTranslator\TableDrivenTranslator\bin\TableDrivenTranslator.exe TranslationTables.mdb Translate_LinksAlternatives W:\AGMaster21\AGMaster21_LinksAlts.mdb

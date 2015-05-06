@@ -1,0 +1,1 @@
+W:\Model_Programs\GISTranslator\TableDrivenTranslator\bin\TableDrivenTranslator.exe TranslationTables.mdb Translate_SAMaster22 D:\Temp\SAMaster22.mdb

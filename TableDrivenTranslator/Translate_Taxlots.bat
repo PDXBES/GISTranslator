@@ -1,0 +1,1 @@
+W:\Model_Programs\GISTranslator\TableDrivenTranslator\bin\TableDrivenTranslator.exe TranslationTables.mdb Taxlots_Divides_translation W:\AGMaster21\AGMaster21_taxlots.mdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDELoaderGUI", "SDELoaderGUI.csproj", "{A7592A95-2138-4CAE-937C-53BF6BA1FDDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDELoaderEngine", "..\SDELoader\SDELoaderEngine.csproj", "{127B9B16-2114-42A7-B31C-8E8B70497D6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDELoaderBatch", "..\SDELoaderBatch\SDELoaderBatch.csproj", "{8757CD2D-6277-43C1-8876-B72D19EAA21D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7592A95-2138-4CAE-937C-53BF6BA1FDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7592A95-2138-4CAE-937C-53BF6BA1FDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7592A95-2138-4CAE-937C-53BF6BA1FDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7592A95-2138-4CAE-937C-53BF6BA1FDDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127B9B16-2114-42A7-B31C-8E8B70497D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127B9B16-2114-42A7-B31C-8E8B70497D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127B9B16-2114-42A7-B31C-8E8B70497D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127B9B16-2114-42A7-B31C-8E8B70497D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8757CD2D-6277-43C1-8876-B72D19EAA21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8757CD2D-6277-43C1-8876-B72D19EAA21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8757CD2D-6277-43C1-8876-B72D19EAA21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8757CD2D-6277-43C1-8876-B72D19EAA21D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

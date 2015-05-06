@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SDELoaderConfig" targetNamespace="http://tempuri.org/SDELoaderConfig.xsd" xmlns:mstns="http://tempuri.org/SDELoaderConfig.xsd" xmlns="http://tempuri.org/SDELoaderConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SDELoaderConfig" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="SDELoaderConfig" msprop:Generator_DataSetName="SDELoaderConfig">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UploadCommand" msprop:Generator_UserTableName="UploadCommand" msprop:Generator_RowDeletedName="UploadCommandRowDeleted" msprop:Generator_RowChangedName="UploadCommandRowChanged" msprop:Generator_RowClassName="UploadCommandRow" msprop:Generator_RowChangingName="UploadCommandRowChanging" msprop:Generator_RowEvArgName="UploadCommandRowChangeEvent" msprop:Generator_RowEvHandlerName="UploadCommandRowChangeEventHandler" msprop:Generator_TableClassName="UploadCommandDataTable" msprop:Generator_TableVarName="tableUploadCommand" msprop:Generator_RowDeletingName="UploadCommandRowDeleting" msprop:Generator_TablePropName="UploadCommand">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UploadCommandID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="UploadCommandID" msprop:Generator_ColumnVarNameInTable="columnUploadCommandID" msprop:Generator_ColumnPropNameInRow="UploadCommandID" msprop:Generator_ColumnPropNameInTable="UploadCommandIDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PGDBWorkspace" msprop:Generator_UserTableName="PGDBWorkspace" msprop:Generator_RowDeletedName="PGDBWorkspaceRowDeleted" msprop:Generator_RowChangedName="PGDBWorkspaceRowChanged" msprop:Generator_RowClassName="PGDBWorkspaceRow" msprop:Generator_RowChangingName="PGDBWorkspaceRowChanging" msprop:Generator_RowEvArgName="PGDBWorkspaceRowChangeEvent" msprop:Generator_RowEvHandlerName="PGDBWorkspaceRowChangeEventHandler" msprop:Generator_TableClassName="PGDBWorkspaceDataTable" msprop:Generator_TableVarName="tablePGDBWorkspace" msprop:Generator_RowDeletingName="PGDBWorkspaceRowDeleting" msprop:Generator_TablePropName="PGDBWorkspace" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <msdata:Relationship name="UploadCommand_PGDBWorkspace" msdata:parent="UploadCommand" msdata:child="PGDBWorkspace" msdata:parentkey="UploadCommandID" msdata:childkey="UploadCommandID" msprop:Generator_UserRelationName="UploadCommand_PGDBWorkspace" msprop:Generator_RelationVarName="relationUploadCommand_PGDBWorkspace" msprop:Generator_UserChildTable="PGDBWorkspace" msprop:Generator_UserParentTable="UploadCommand" msprop:Generator_ParentPropName="UploadCommandRow" msprop:Generator_ChildPropName="GetPGDBWorkspaceRows" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="PGDBWorkspaceID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="PGDBWorkspaceID" msprop:Generator_ColumnVarNameInTable="columnPGDBWorkspaceID" msprop:Generator_ColumnPropNameInRow="PGDBWorkspaceID" msprop:Generator_ColumnPropNameInTable="PGDBWorkspaceIDColumn" type="xs:int" />
+                    <xs:element name="UploadCommandID" msprop:Generator_UserColumnName="UploadCommandID" msprop:Generator_ColumnVarNameInTable="columnUploadCommandID" msprop:Generator_ColumnPropNameInRow="UploadCommandID" msprop:Generator_ColumnPropNameInTable="UploadCommandIDColumn" type="xs:int" minOccurs="0" />
+                    <xs:element name="PGDB" msdata:Caption="InputPGDB" msprop:Generator_UserColumnName="PGDB" msprop:Generator_ColumnVarNameInTable="columnPGDB" msprop:Generator_ColumnPropNameInRow="PGDB" msprop:Generator_ColumnPropNameInTable="PGDBColumn" type="xs:string" default="" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SDEWorkspace" msprop:Generator_UserTableName="SDEWorkspace" msprop:Generator_RowDeletedName="SDEWorkspaceRowDeleted" msprop:Generator_RowChangedName="SDEWorkspaceRowChanged" msprop:Generator_RowClassName="SDEWorkspaceRow" msprop:Generator_RowChangingName="SDEWorkspaceRowChanging" msprop:Generator_RowEvArgName="SDEWorkspaceRowChangeEvent" msprop:Generator_RowEvHandlerName="SDEWorkspaceRowChangeEventHandler" msprop:Generator_TableClassName="SDEWorkspaceDataTable" msprop:Generator_TableVarName="tableSDEWorkspace" msprop:Generator_RowDeletingName="SDEWorkspaceRowDeleting" msprop:Generator_TablePropName="SDEWorkspace" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <msdata:Relationship name="UploadCommand_SDEWorkspace" msdata:parent="UploadCommand" msdata:child="SDEWorkspace" msdata:parentkey="UploadCommandID" msdata:childkey="UploadCommandID" msprop:Generator_UserRelationName="UploadCommand_SDEWorkspace" msprop:Generator_RelationVarName="relationUploadCommand_SDEWorkspace" msprop:Generator_UserChildTable="SDEWorkspace" msprop:Generator_UserParentTable="UploadCommand" msprop:Generator_ParentPropName="UploadCommandRow" msprop:Generator_ChildPropName="GetSDEWorkspaceRows" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="SDEWorkspaceID" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="SDEWorkspaceID" msprop:Generator_ColumnVarNameInTable="columnSDEWorkspaceID" msprop:Generator_ColumnPropNameInRow="SDEWorkspaceID" msprop:Generator_ColumnPropNameInTable="SDEWorkspaceIDColumn" type="xs:int" />
+                    <xs:element name="UploadCommandID" msprop:Generator_UserColumnName="UploadCommandID" msprop:Generator_ColumnVarNameInTable="columnUploadCommandID" msprop:Generator_ColumnPropNameInRow="UploadCommandID" msprop:Generator_ColumnPropNameInTable="UploadCommandIDColumn" type="xs:int" minOccurs="0" />
+                    <xs:element name="Server" msdata:Caption="OutputServer" msprop:Generator_UserColumnName="Server" msprop:Generator_ColumnVarNameInTable="columnServer" msprop:Generator_ColumnPropNameInRow="Server" msprop:Generator_ColumnPropNameInTable="ServerColumn" type="xs:string" default="" minOccurs="0" />
+                    <xs:element name="Instance" msdata:Caption="OutputInstance" msprop:Generator_UserColumnName="Instance" msprop:Generator_ColumnVarNameInTable="columnInstance" msprop:Generator_ColumnPropNameInRow="Instance" msprop:Generator_ColumnPropNameInTable="InstanceColumn" type="xs:string" default="" minOccurs="0" />
+                    <xs:element name="Database" msdata:Caption="OutputDB" msprop:Generator_UserColumnName="Database" msprop:Generator_ColumnVarNameInTable="columnDatabase" msprop:Generator_ColumnPropNameInRow="Database" msprop:Generator_ColumnPropNameInTable="DatabaseColumn" type="xs:string" default="SDE" minOccurs="0" />
+                    <xs:element name="User" msdata:Caption="OutputUser" msprop:Generator_UserColumnName="User" msprop:Generator_ColumnVarNameInTable="columnUser" msprop:Generator_ColumnPropNameInRow="User" msprop:Generator_ColumnPropNameInTable="UserColumn" type="xs:string" minOccurs="0" />
+                    <xs:element name="Password" msdata:Caption="OutputPassword" msprop:Generator_UserColumnName="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" type="xs:string" minOccurs="0" />
+                    <xs:element name="Version" msdata:Caption="OutputVersion" msprop:Generator_UserColumnName="Version" msprop:Generator_ColumnVarNameInTable="columnVersion" msprop:Generator_ColumnPropNameInRow="Version" msprop:Generator_ColumnPropNameInTable="VersionColumn" type="xs:string" default="sde.default" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="FeatureClass" msprop:Generator_UserTableName="FeatureClass" msprop:Generator_RowDeletedName="FeatureClassRowDeleted" msprop:Generator_RowChangedName="FeatureClassRowChanged" msprop:Generator_RowClassName="FeatureClassRow" msprop:Generator_RowChangingName="FeatureClassRowChanging" msprop:Generator_RowEvArgName="FeatureClassRowChangeEvent" msprop:Generator_RowEvHandlerName="FeatureClassRowChangeEventHandler" msprop:Generator_TableClassName="FeatureClassDataTable" msprop:Generator_TableVarName="tableFeatureClass" msprop:Generator_RowDeletingName="FeatureClassRowDeleting" msprop:Generator_TablePropName="FeatureClass" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <msdata:Relationship name="SDEWorkspace_SDEFeatureClass" msdata:parent="UploadCommand" msdata:child="FeatureClass" msdata:parentkey="UploadCommandID" msdata:childkey="UploadCommandID" msprop:Generator_UserRelationName="SDEWorkspace_SDEFeatureClass" msprop:Generator_RelationVarName="relationSDEWorkspace_SDEFeatureClass" msprop:Generator_UserChildTable="FeatureClass" msprop:Generator_UserParentTable="UploadCommand" msprop:Generator_ParentPropName="UploadCommandRow" msprop:Generator_ChildPropName="GetFeatureClassRows" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="FeatureClassID" msdata:AutoIncrement="true" msdata:Caption="SDEFeatureClassID" msprop:Generator_UserColumnName="FeatureClassID" msprop:Generator_ColumnVarNameInTable="columnFeatureClassID" msprop:Generator_ColumnPropNameInRow="FeatureClassID" msprop:Generator_ColumnPropNameInTable="FeatureClassIDColumn" type="xs:int" />
+                    <xs:element name="UploadCommandID" msdata:Caption="SDEWorkspaceID" msprop:Generator_UserColumnName="UploadCommandID" msprop:Generator_ColumnVarNameInTable="columnUploadCommandID" msprop:Generator_ColumnPropNameInRow="UploadCommandID" msprop:Generator_ColumnPropNameInTable="UploadCommandIDColumn" type="xs:int" minOccurs="0" />
+                    <xs:element name="SourceFC" msdata:Caption="FeatureClassName" msprop:Generator_UserColumnName="SourceFC" msprop:Generator_ColumnVarNameInTable="columnSourceFC" msprop:Generator_ColumnPropNameInRow="SourceFC" msprop:Generator_ColumnPropNameInTable="SourceFCColumn" type="xs:string" minOccurs="0" />
+                    <xs:element name="DestFC" msprop:Generator_UserColumnName="DestFC" msprop:Generator_ColumnVarNameInTable="columnDestFC" msprop:Generator_ColumnPropNameInRow="DestFC" msprop:Generator_ColumnPropNameInTable="DestFCColumn" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PGDBWorkspace_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PGDBWorkspace" />
+      <xs:field xpath="mstns:PGDBWorkspaceID" />
+    </xs:unique>
+    <xs:unique name="SDEWorkspace_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SDEWorkspace" />
+      <xs:field xpath="mstns:SDEWorkspaceID" />
+    </xs:unique>
+    <xs:unique name="Constraint11">
+      <xs:selector xpath=".//mstns:FeatureClass" />
+      <xs:field xpath="mstns:FeatureClassID" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UploadCommand" />
+      <xs:field xpath="mstns:UploadCommandID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
